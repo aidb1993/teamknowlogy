@@ -1,0 +1,31 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment variables file
+.env
+
+# Ignore log files
+logs/
+
+# Ignore generated files
+dist/
+
+# Ignore editor specific files
+.vscode/
+.idea/
+
+# Ignore npm lock file
+package-lock.json
+
+# Ignore local development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore testing and coverage artifacts
+coverage/
+.nyc_output/
